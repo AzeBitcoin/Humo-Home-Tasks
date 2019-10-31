@@ -1,0 +1,120 @@
+body {
+    background-color: aqua;
+}
+
+.Menu {
+    margin: 0;
+    padding: 0;
+    background: #ececed;
+}
+
+header {
+    margin-top  : 100px;
+}
+
+.Menu li {
+    list-style: none;
+}
+
+.Menu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.Menu > ul li a{
+    display: block;
+    background: #ececed;
+    padding: 20px 80px;
+    font-size: 14px;
+    color: #454547;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: all 0.3s ease;
+}    
+
+.Menu ul li {
+    position: relative;
+    border: 1px solid #454547;
+    border-radius: 15px;
+    /*border-left: 1px solid #454547;
+    border-right: 1px solid #454547;*/
+}
+
+.Menu li a:hover{
+    background: #454547;
+    color: #ffffff;
+    box-shadow: 1px 5px 10px -5px black;
+    transition: all 0.3s ease;
+}    
+
+.Menu li ul{
+    position: absolute;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    display: none;
+}    
+
+.Menu li > ul li a{
+    padding: 10px;
+    text-transform: none;
+    background: #e4e4e5;
+}    
+
+.Menu li:hover > ul{
+    display: block;
+}    
+
+/*.Menu li ul li {
+    border-top: 1px solid #454547;
+    border-bottom: 1px solid #454547;
+}*/
+
+.MainFunc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Content {
+    max-width: 700px;
+    background-color: azure;
+    border-radius: 10px;
+    margin-left:  0px;
+    margin-right: 0px;
+}
+
+.LeftColumn {
+    background-color: azure;
+    min-width: 300px;
+    margin-right: 0px;
+}
+
+.RightColumn {
+    background-color: azure;
+    min-width: 300px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+.Footdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.Footdiv li {
+    list-style: none;
+}
+
+h5 {
+    margin: 5px;
+}
+
+a {
+    text-decoration: none;
+}

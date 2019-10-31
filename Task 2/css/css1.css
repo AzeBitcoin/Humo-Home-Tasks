@@ -1,0 +1,41 @@
+.AuthForm {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+     box-shadow: 0 0 10px rgba(153, 178, 223, 0.5); 
+    transition:0.5s;
+    Border-Radius:20px; 
+    width:150px;
+    padding: 30px; 
+    height:200px;
+    background:#e4ffe2;
+}
+
+.body {
+    background-color: aqua;  
+}
+
+.HovHov {
+    border-radius: 10px;
+    height: 15px;
+    padding: 2px;
+}
+
+.HovHov:hover {
+    box-shadow: 0 0 7px aqua;
+    transition: 0.5s;
+}
+
+.but {
+    height: 25px;
+    box-shadow: 0 0 2px #111111;
+    width: 100px;
+    margin-left: 25px;
+    border-radius: 10px;
+}
+
+.but:hover {
+    box-shadow: 0 0 7px aqua;
+    transition: 0.5s;
+}
