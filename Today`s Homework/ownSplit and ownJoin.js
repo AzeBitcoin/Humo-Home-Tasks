@@ -1,16 +1,16 @@
-// var arr = [1, 2, 3];
+var arr = [1, 2, 3];
 
-// Array.prototype.ownJoin = function(separator){
-//     let string = '';
-//     this.forEach(function(item, index) {
-//             string += item += separator;
-//     });
-//     string = string.slice(0, string.length - separator.length);
-//     return string;
-// }
+Array.prototype.ownJoin = function(separator){
+    let string = '';
+    this.forEach(function(item, index) {
+            string += item += separator;
+    });
+    string = string.slice(0, string.length - separator.length);
+    return string;
+}
 
-// var t = arr.ownJoin("qwe");
-// console.log(t);
+var t = arr.ownJoin("qwe");
+console.log(t);
 
 
 String.prototype.ownSplit = function(separator){
